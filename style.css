@@ -1,0 +1,145 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Comfortaa", cursive;
+}
+
+body {
+  background-color: #fffbef;
+}
+
+.navbar {
+  margin: 10px;
+  padding: 0;
+  border: 4px solid black;
+  border-radius: 8px;
+}
+
+#index-navbar {
+  background-color: #35AA9D;
+}
+
+#favorite-navbar {
+  background-color: #ff0027;
+}
+
+.nav-img {
+  padding: 0;
+  border-right: 4px solid black;
+  border-radius: 4px 0 0 4px;
+}
+
+button {
+  box-shadow: none;
+  border-style: none;
+  border-color: none;
+  background: none;
+  background-image: none;
+  padding: 12px;
+}
+
+span.input-group-text {
+  padding: 0;
+}
+
+span.input-group-text:hover {
+  background-color: #fddd00;
+}
+
+.form-control,
+.input-group-text,
+.fav-btn {
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.form-control {
+  border-right: none;
+}
+
+.input-group-text {
+  border-left: none;
+  background-color: #fff;
+}
+
+::placeholder {
+  font-family: Comfortaa;
+  font-size: 14px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border-radius: 18px;
+  border: 4px solid black;
+}
+
+.card-img-top {
+  border-radius: 12px 12px 0 0;
+  background-size: cover;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card-img-overlay {
+  height: 50px;
+}
+
+.fa-heart {
+  color: tomato;
+  font-size: 25px;
+}
+
+.btn-about,
+.btn-modal-close {
+  padding: 4px 12px;
+  margin: 2px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.btn-about:hover,
+.btn-modal-close:hover {
+  background-color: #fddd00;
+}
+
+.page-link:hover {
+  background-color: #fddd00;
+  color: black;
+  border: 2px solid black;
+}
+
+.modal-content {
+  border: 4px solid black;
+  border-radius: 10px;
+}
+
+.modal-body {
+  border-top: 3px solid black;
+}
+
+.modal-footer,
+.modal-header {
+  border: none;
+}
+
+.page-link {
+  padding: 6px 12px;
+  margin: 10px;
+  border: 2px solid black;
+  font-size: 12px;
+  font-weight: 700;
+  color: black;
+}
